@@ -1,9 +1,0 @@
-testing specs for chefs:
-chefname: string
-email: string
-
-- chef name must be present
-- chef name must be between 3 and 40 characters
-- email must be present
-- email must be unique (since they will be used later for logins)
-- email must be valid
