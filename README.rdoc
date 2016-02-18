@@ -1,9 +1,0 @@
-Authentication updates:
-
--show recipe page -> ability to edit/update only own recipe
--navigation partial -> toggle menu, restrict new
--restrict thumbs up and thumbs down action to logged in users only
--recipe -> update to current_user
--like -> update to current_user
--before_action :require_user, except: [:show, ,:index]
--before_action :require_same_user for chefs, only: [:edit, :update]
