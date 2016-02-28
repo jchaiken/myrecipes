@@ -1,5 +1,0 @@
-Many to Many Associations
-
-1. implement using has_many :through association
-2. requires a join table
-3. one object/row in one table can be associated with multiple rows in the 2nd table and vice versa
