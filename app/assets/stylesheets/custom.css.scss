@@ -92,6 +92,11 @@ input, textarea, select, .uneditablt-input {
   margin-bottom: 15px;
 }
 
+/* added to correct inline checkboxes from overlapping text  */
+.input_checkbox input {
+  width: auto !important;
+}
+
 input {
   height: auto !important;
 }
